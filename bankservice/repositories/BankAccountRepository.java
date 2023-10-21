@@ -1,0 +1,11 @@
+package com.works.bankservice.repositories;
+
+import com.works.bankservice.entities.BankAccount;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface BankAccountRepository extends JpaRepository<BankAccount, Long> {
+
+
+}
